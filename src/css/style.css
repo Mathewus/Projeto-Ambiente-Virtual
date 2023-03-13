@@ -7,16 +7,17 @@ background-color: #3C8DBC;
 color: #ece7e7;
 width: 100%;
 display: flex;
-justify-content: center;
 align-items: center;
 overflow: hidden;
 position: fixed;
 z-index: 2;
 }
 .menu #botao-menu{
+    /* background-color: #008E49; */
     display: flex;
     position: relative;
-    right: 345px;
+    width: 50%;
+    justify-content: start;
     cursor: pointer;
 }
 
@@ -25,10 +26,12 @@ z-index: 2;
 }
 
 .menu .sub-itens{
+    /* background-color: #BB4034; */
     display: flex;
     cursor: pointer;
     position: relative;
-    left: 345px;
+    width: 100%;
+    justify-content: end;
 }
 .titulo{
     display: flex;
@@ -110,7 +113,7 @@ display: flex;
     overflow: hidden;
     margin: 10px;
     width: 450px;
-    height: 130px;
+    height: 130px; 
 }
 
 .sub-section #container1{
