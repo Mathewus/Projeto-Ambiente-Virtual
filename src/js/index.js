@@ -10,12 +10,13 @@
 */
 
 const submenu = document.querySelector(".sub-menu");
+const conteudo = document.querySelector(".conteudo");
 const botaomenu = document.getElementById("botao-menu");
 
 
 function alternarMenu(){
-
     submenu.classList.toggle("ativado");
+    conteudo.classList.toggle("blur");
 
 }
 

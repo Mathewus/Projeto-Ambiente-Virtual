@@ -1,3 +1,9 @@
+@media (min-width:1200px){
+    .conteudo.blur{
+        filter: blur(0px);
+        }
+}
+
 @media (max-width: 1200px) {
 
     .section1 .sub-section,
@@ -6,7 +12,7 @@
     }
 
     .section1 .sub-section .containers {
-        width: 300px;
+        width: 350px;
     }
 
     .section1 .sub-section2 .containers2 {
@@ -18,20 +24,44 @@
     }
 
     .sub-menu.ativado {
+        width: 320px;
         height: 155vh;
     }
 
+    .conteudo.blur{
+        filter: blur(0px);
+        }
+}
+
+@media (max-width: 973px) {
+    .sub-menu.ativado{
+        position: absolute;
+        z-index: 2;
+        width: 270px;
+    } 
+
+    .conteudo.blur{
+        filter: blur(4px);
+        }
 }
 
 
-@media (max-width: 924px) {
+@media (max-width: 760px) {
     .menu .sub-itens {
         font-size: 11pt;
     }
 
+    .info .conteudo {
+        z-index: -1;
+    }
     .section1 .sub-section .containers {
         width: 275px;
         height: 120px;
+    }
+
+    .section1 .sub-section2 .containers2 {
+        width: 170px;
+        height: 80px;
     }
 
     .containers .rodape p {
@@ -49,13 +79,7 @@
     .containers .infocontainer i {
         font-size: 73px;
     }
-
-    .section1 .sub-section2 .containers2 {
-        width: 170px;
-        height: 80px;
-    }
-
-    .sub-section2 .containers2 h4 {
+.sub-section2 .containers2 h4 {
         font-size: 8.5pt;
     }
 
@@ -65,127 +89,100 @@
     }
 }
 
-@media (max-width: 774px) {
+@media (max-width: 704px){
+    .sub-menu.ativado{
+        margin-top:15px 
+    }
+}
+
+@media (max-width: 606px) {
+
+    .menu .sub-itens{
+        display: none;
+
+    }
+
+    .sub-menu.ativado{
+        margin-top:15px 
+    }
+
+    .sub-menu h5 {
+        margin-top: 45px;
+    }
+
     .section1 .sub-section .containers {
+        width: 240px;
+        height: 120px;
+    }
+
+    .section1 .sub-section2 .containers2 {
+        width: 130px;
+        height: 80px;
+    }
+}
+
+@media (max-width: 538px){
+
+    .section1 .sub-section .containers {
+        width: 225px;
+        height: 120px;
+    }
+
+    .section1 .sub-section2 .containers2 {
+        width: 300px;
+        height: 80px;
+    }
+
+}
+
+@media (max-width: 538px){
+    .section1 .sub-section .containers {
+        width: 270px;
+        height: 120px;
+    }
+
+    .sub-menu.ativado{
+        height: 300vh;
+    }
+}
+
+@media (max-width: 461px){
+
+    .info .conteudo{
+        margin-top: 20px;
+    }
+    
+}
+
+@media (max-width: 449px){
+
+    .info .conteudo{
+        margin-top: 25px;
+    }
+
+
+}
+
+
+@media (max-width: 280px){
+
+    .sub-menu.ativado{
         width: 220px;
-        height: 110px;
-    }
-
-    .containers .rodape p {
-        margin-top: 10px;
-    }
-
-    .containers .infocontainer h2 {
-        font-size: 16pt;
-    }
-
-    .containers .infocontainer p {
-        font-size: 10pt;
-    }
-
-    .containers .infocontainer i {
-        font-size: 64px;
-    }
-
-    .section1 .sub-section2 .containers2 {
-        width: 135px;
-        height: 70px;
-    }
-
-    .sub-section2 .containers2 h4 {
-        font-size: 7.9pt;
-    }
-
-    .sub-section2 .containers2 .icons {
-        font-size: 20pt;
-        height: 70px;
-    }
-}
-
-@media (max-width: 664px) {
-    .section1 .sub-section .containers {
-        width: 195px;
-        height: 95px;
-    }
-
-    .containers .rodape p {
-        margin-top: 7.5px;
-    }
-
-    .containers .infocontainer h2 {
-        font-size: 13.7pt;
-    }
-
-    .containers .infocontainer p {
-        font-size: 9.4pt;
-    }
-
-    .containers .infocontainer i {
-        font-size: 50px;
-    }
-
-    .section1 .sub-section2 .containers2 {
-        width: 120px;
-        height: 65px;
-    }
-
-    .sub-section2 .containers2 h4 {
-        font-size: 7.2pt;
-    }
-
-    .sub-section2 .containers2 .icons {
-        font-size: 17pt;
-        height: 65px;
-    }
-}
-
-@media (max-width: 619px) {
-    .menu{
-        z-index: 3;
-    }
-
-    .sub-menu{
-        z-index: 2;
-    }
-    
-    .menu .sub-itens {
-        font-size: 9pt;
-    }
+    } 
 
     .section1 .sub-section .containers {
-        width: 165px;
-        height: 90px;
-    }
-
-    .containers .rodape p {
-        margin-top: 6px;
-    }
-
-    .containers .infocontainer h2 {
-        font-size: 13pt;
-    }
-
-    .containers .infocontainer p {
-        font-size: 9pt;
-    }
-
-    .containers .infocontainer i {
-        font-size: 30px;
+        width: 210px;
+        height: 120px;
     }
 
     .section1 .sub-section2 .containers2 {
-        width: 90px;
-        height: 65px;
+        width: 280px;
+        height: 80px;
     }
 
-    .sub-section2 .containers2 h4 {
-        font-size: 5pt;
+    .containers .infocontainer i {
+        font-size: 65px;
+        padding-right: 10px;
     }
 
-    .sub-section2 .containers2 .icons {
-        font-size: 15pt;
-        height: 65px;
-    }
-
-    
 }
