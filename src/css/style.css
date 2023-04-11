@@ -73,21 +73,20 @@
 
 .conteudo.blur{
 filter: blur(4px);
+overflow: hidden;
 }
-
+    
 .sub-menu {
     display: flex;
     flex-direction: column;
     display: none;
-
 }
 
 .sub-menu.ativado {
     background-color: #222D33;
     width: 270px;
     height: 120vh;
-    /* visibility: visible; */
-    display: block;
+    display: block; 
 }
 
 .sub-menu h5 {

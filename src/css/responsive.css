@@ -6,14 +6,16 @@
         #corpo.scroll{
             overflow: auto;
         }
+
 }
 
 @media (max-width: 1200px) {
 
     #corpo.scroll{
-        overflow: auto;
-    }
-    
+            overflow: auto;
+        }
+
+
     .section1 .sub-section,
     .sub-section2 {
         flex-wrap: wrap;
