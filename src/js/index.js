@@ -12,11 +12,13 @@
 const submenu = document.querySelector(".sub-menu");
 const conteudo = document.querySelector(".conteudo");
 const botaomenu = document.getElementById("botao-menu");
+const body = document.getElementById("corpo");
 
 
 function alternarMenu(){
     submenu.classList.toggle("ativado");
     conteudo.classList.toggle("blur");
+    body.classList.toggle("scroll");
 
 }
 
@@ -26,4 +28,5 @@ botaomenu.addEventListener("click",() => {
     alternarMenu();
 
 });
+
 

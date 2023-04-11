@@ -2,10 +2,18 @@
     .conteudo.blur{
         filter: blur(0px);
         }
+
+        #corpo.scroll{
+            overflow: auto;
+        }
 }
 
 @media (max-width: 1200px) {
 
+    #corpo.scroll{
+        overflow: auto;
+    }
+    
     .section1 .sub-section,
     .sub-section2 {
         flex-wrap: wrap;
@@ -43,6 +51,11 @@
     .conteudo.blur{
         filter: blur(4px);
         }
+        
+        #corpo.scroll{
+            overflow: hidden;
+        }
+
 }
 
 
