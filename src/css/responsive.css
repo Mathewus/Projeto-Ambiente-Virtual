@@ -44,12 +44,13 @@
 }
 
 @media (max-width: 973px) {
-    .sub-menu.ativado{
-        position: absolute;
-        z-index: 2;
+    .sub-menu.ativado {
         width: 270px;
-    } 
-
+        height: 105vh;
+        z-index: 2;
+        position: fixed;
+     
+    }
     .conteudo.blur{
         filter: blur(4px);
         }
